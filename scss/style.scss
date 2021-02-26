@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arsenal', sans-serif;
+}
+
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/info";
+@import "blocks/answer";
+@import "blocks/table";
+@import "blocks/footer";
+@import "blocks/comments";
